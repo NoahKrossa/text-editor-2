@@ -3,14 +3,27 @@
   <head>
     <title>Parcel Sandbox</title>
     <meta charset="UTF-8" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    />
   </head>
 
   <body>
     <div id="app">
-      <div>
-        <button data-state="false" name="bold">Bold</button>
-        <button data-state="false" name="italic">Italic</button>
-        <button data-state="false" name="underline">Underline</button>
+      <div class="commands" id="commandbar">
+        <button name="bold">
+          <i class="fas fa-bold"></i>
+        </button>
+        <button name="italic">
+          <i class="fas fa-italic"></i>
+        </button>
+        <button name="underline">
+          <i class="fas fa-underline"></i>
+        </button>
+        <button name="underline">
+          <i class="fas fa-link"></i>
+        </button>
       </div>
       <div id="document"></div>
     </div>
