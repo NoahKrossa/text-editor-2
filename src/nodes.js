@@ -1,9 +1,5 @@
-import { settFormat } from "./commandbar";
-
 /** Event controllers */
-const onfocusNode = (e) => {
-  settFormat();
-};
+const onfocusNode = (e) => {};
 const onBlurNode = (e) => {};
 
 export const generateNode = (tagName) => {

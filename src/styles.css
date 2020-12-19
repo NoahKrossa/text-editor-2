@@ -38,6 +38,7 @@ button[data-state="true"] {
   display: table;
   border-radius: 3px;
   position: absolute;
+  display: none;
 }
 .commands::before {
   position: absolute;
