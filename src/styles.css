@@ -54,7 +54,12 @@ button[data-state="true"] {
 .commands > button {
   color: white;
   margin-right: 5px;
+  z-index: 100;
 }
 .commands > button:last-child {
   margin-right: 0;
+}
+
+.fas {
+  z-index: -100;
 }
