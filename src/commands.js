@@ -1,5 +1,5 @@
 import { updateConfigBar } from "./commandbar";
-const buttonCommands = document.querySelectorAll("button");
+export const buttonCommands = document.querySelectorAll("button");
 
 const onClickButtonCommand = (e) => {
   let btn;

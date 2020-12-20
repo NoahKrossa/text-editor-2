@@ -11,6 +11,12 @@ export const updateConfigBar = (btn, state) => {
   btn.dataset.state = `${state}`;
 };
 
+export const updateAllConfigBar = (btnList) => {
+  btnList.forEach((btn) => {
+    updateConfigBar(btn, document.queryCommandState(btn.name));
+  });
+};
+
 export const showCommandbar = () => {
   const selection = document.getSelection();
   if (selection) {
